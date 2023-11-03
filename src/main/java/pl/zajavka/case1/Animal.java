@@ -1,4 +1,10 @@
 package pl.zajavka.case1;
 
-public class Animal {
+
+public abstract class Animal {
+
+    protected String whatIsYourName() {
+        return "I don't have any";
+    }
+
 }
