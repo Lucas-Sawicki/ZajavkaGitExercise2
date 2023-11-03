@@ -7,6 +7,9 @@ public class Dog extends Animal {
     public String whatIsYourName() {
         return "My name is Doggo";
     }
+    public void sniff() {
+        System.out.println("I'm soo sniffing!");
+    }
 }
 
 
